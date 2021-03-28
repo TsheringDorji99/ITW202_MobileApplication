@@ -1,0 +1,4 @@
+#Sun Mar 21 20:25:10 BTT 2021
+base.0=/home/humble/AndroidStudioProjects/TO_DO_4/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
