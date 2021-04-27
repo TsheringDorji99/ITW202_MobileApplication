@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Calculator"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/olive"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your first operand."
+        android:layout_below="@+id/tv1"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter your second operand."
+        android:layout_below="@+id/et1"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:text="ADD"
+        android:onClick="add"
+        android:layout_below="@+id/et2"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="155dp"
+        android:text="SUB"
+        android:onClick="sub"
+        android:layout_below="@+id/et2"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="MUL"
+        android:onClick="mul"
+        android:layout_below="@+id/b1"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="155dp"
+        android:text="DIV"
+        android:onClick="div"
+        android:layout_below="@+id/b1"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginTop="45dp"
+        android:hint="RESULT"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/b3"/>
+
+
+</RelativeLayout>
