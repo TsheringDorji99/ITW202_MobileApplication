@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TO_DO_15I</string>
+    <string name="opennavdrawer">Open Navigation</string>
+    <string name="closenavdrawer">Close Navigation</string>
+
+    <string name="tab_label1">Top Stories</string>
+    <string name="tab_label2">Tech News</string>
+    <string name="tab_label3">Cooking</string>
+</resources>
