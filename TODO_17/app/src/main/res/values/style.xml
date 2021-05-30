@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="score" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:tint">@color/teal_200</item>
+    </style>
+    <style name="add" parent="score">
+        <item name="android:background">@drawable/add</item>
+        <item name="android:contentDescription">@string/plus</item>
+    </style>
+    <style name="sub" parent="score">
+        <item name="android:background">@drawable/min</item>
+        <item name="android:contentDescription">@string/min</item>
+    </style>
+    <style name="Scoretext">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+</resources>
